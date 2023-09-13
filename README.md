@@ -2,9 +2,9 @@
 
 This project aims to carry out text classification or sentiment analysis of wine reviews using TensorFlow.
 
-#Methodology
+## Methodology
 
-#Main Software and Frameworks Used
+# Main Software and Frameworks Used
 
 
 
