@@ -9,6 +9,11 @@ This project aims to carry out text classification or sentiment analysis of wine
 4. BeautifulSoup was used for web scraping to retrieve 18 wine blog posts/articles from www.vinography.com.
 5. TensorFlow was used as the Machine Learning Model to carry out binary classification of wine reviews.
 
+## Datasets / Results
+1. "wine-reviews.csv" was the labelled training dataset.
+2. "wine_articles.csv" is the real world wine articles to generate classification predictions on.
+3. "results.csv" is the predictions made by model on real world wine articles.
+
 # Methodology
 
 ## Data Collection, Data Preprocessing and Feature Engineering
