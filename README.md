@@ -10,7 +10,7 @@ This project aims to carry out text classification or sentiment analysis of wine
 5. TensorFlow was used as the Machine Learning Model to carry out binary classification of wine reviews.
 
 ## Datasets / Results
-1. "wine-reviews.csv" was the labelled training dataset.
+1. "wine-reviews.csv" was the labelled training dataset (link: https://drive.google.com/drive/folders/1YnxDqNIqM2Xr1Dlgv5pYsE6dYJ9MGxcM)
 2. "wine_articles.csv" is the real world wine articles to generate classification predictions on.
 3. "results.csv" is the predictions made by model on real world wine articles.
 
