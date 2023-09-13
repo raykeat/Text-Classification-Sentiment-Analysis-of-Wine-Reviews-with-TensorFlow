@@ -22,17 +22,17 @@ This project aims to carry out text classification or sentiment analysis of wine
 6. 2 Different TensorFlow Models were used.
    
    a. The first was a pretrained text embedding model from tensorflow hub (nnlm-en-dim50/2: https://tfhub.dev/google/nnlm-en-dim50/2)
-       i. The pretrained text embedding layer was used as the First Keras layer, followed by a few dense layers and a final layer with an output node and sigmoid function.
-       ii. The text embedding layer converts textual data to vectors of numerical values in a way that captures the semantic meaning of the text.
-       iii. Model was then trained on training dataset with Adam Optimizer, Binary Cross Entropy Loss Function, with accuracy and recall metrics.
-       iV. Model was evaluated on test dataset with accuracy of 0.8279 and recall of 0.7796.
+      1. The pretrained text embedding layer was used as the First Keras layer, followed by a few dense layers and a final layer with an output node and sigmoid function.
+      2. The text embedding layer converts textual data to vectors of numerical values in a way that captures the semantic meaning of the text.
+      3. Model was then trained on training dataset with Adam Optimizer, Binary Cross Entropy Loss Function, with accuracy and recall metrics.
+      4. Model was evaluated on test dataset with accuracy of 0.8279 and recall of 0.7796.
    
    b. The second was a Long Short Term Memory (LSTM) Recurrent Neural Network (RNN).
-       i. The first layer is a Text Encoder/Text Vectorization Layer that converts raw text into integer sequences by tokening the text and mapping tokens to integers.
-       ii. The second layer is a Embedding Layer that converts integer sequences into vector representations.
-       iii. This is followed by 2 LSTM Bidirectional Layers, 1 Dense layer and a final layer with 1 output node to predict output label.
-       iv. Model was trained on training dataset with Adam Optimizer, Binary Cross Entropy Loss Function, with accuracy and recall metrics.
-       v. Model was evaluated on test dataset with accuracy of 0.8341.
+      1. The first layer is a Text Encoder/Text Vectorization Layer that converts raw text into integer sequences by tokening the text and mapping tokens to integers.
+      2. The second layer is a Embedding Layer that converts integer sequences into vector representations.
+      3. This is followed by 2 LSTM Bidirectional Layers, 1 Dense layer and a final layer with 1 output node to predict output label.
+      4. Model was trained on training dataset with Adam Optimizer, Binary Cross Entropy Loss Function, with accuracy and recall metrics.
+      5. Model was evaluated on test dataset with accuracy of 0.8341.
    
 7. The LSTM Model was chosen due to higher accuracy.
 
